@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": 123,
+      "category": "datascience",
+      "title": "Calibration analysis of probabilistic models in Julia",
+      "description": "Calibrated probabilistic models ensure that predictions are consistent with empirically observed outcomes, and hence such models provide reliable uncertainty estimates for decision-making. This is particularly important in safety-critical applications. We present Julia packages for analyzing calibration of general probabilistic predictive models, beyond commonly studied classification models. Additionally, our framework allows to perform statistical hypothesis testing of calibration",
+      "location": "online",
+      "date": "07/30/2021",
+      "time": "6:00 PM — 6:30 PM GMT+5:30",
+      "organizer": "David Widmann"
+    },
+    {
+      "id": 456,
+      "category": "compiler",
+      "title": "JET.jl: The next generation of code checker for Julia",
+      "description": "Julia's extreme expressiveness and composability come from its dynamism – at the cost of that, a static type check of Julia code has been remained as a longstanding problem. JET.jl is a fresh approach to static analysis of such a dynamic language; it can detect type-level errors given a pure Julia script within a practical speed. In this talk we will first give an overview of its features and basic usages, and then move to a discussion of its internals, current limitations and future works.",
+      "location": "online",
+      "date": "07/30/2021",
+      "time": "6:00 PM — 6:30 PM GMT+5:30",
+      "organizer": "Shuhei Kadowaki"
+    },
+    {
+      "id": 789,
+      "category": "sustainability",
+      "title": "Julia for Biologists",
+      "description": "“Birds of a Feather flock together” — Whether you see yourself as a biologist, software developer, mathematician or anything in between, the objective of this session is to provide a welcoming and discussion-stimulating environment to strengthen the Julia community in the biological sciences. Independent of your Julia skills level, we are curious to hear what brings you to this area, what you love about it and where you feel like is room for improvement.",
+      "location": "online - YT",
+      "date": "07/30/2021",
+      "time": "6:00 PM — 7:30 PM GMT+5:30",
+      "organizer": "Elisabeth Roesch"
+    }
+  ]
+}
