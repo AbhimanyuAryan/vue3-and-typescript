@@ -7,7 +7,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { EventItem } from '../types'
+// eslint-disable-next-line no-unused-vars
+import type { EventItem } from '../types'
 import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService'
 
@@ -18,7 +19,7 @@ export default defineComponent({
   },
   data() {
     return {
-      events: {} as EventItem
+      events: [] as EventItem[]
     }
   },
   created() {

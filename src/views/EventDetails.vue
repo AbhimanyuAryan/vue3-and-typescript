@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { EventItem } from '../types'
+import type { EventItem } from '../types'
 
 import EventService from '@/services/EventService'
 export default defineComponent({
