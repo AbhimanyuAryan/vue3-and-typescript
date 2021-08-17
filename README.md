@@ -38,6 +38,9 @@ let gun: Gun = {
 }
 ```
 
+## Tools/Extension that can help TypeScript+Vue development
+> https://vuedx.com/ by Rahul Kadyan
+
 ## Project setup
 ```
 npm install
