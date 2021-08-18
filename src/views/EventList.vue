@@ -7,7 +7,6 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// eslint-disable-next-line no-unused-vars
 import type { EventItem } from '../types'
 import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService'
