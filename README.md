@@ -38,6 +38,21 @@ let gun: Gun = {
 }
 ```
 
+Templates/Generics in Typescript like CPP
+
+```ts
+function yourGunInventory<T>(item: T): T[] {
+    const yourGuns: T[] = []
+
+    yourGuns.push(item)
+    return yourGuns
+}
+
+const assultRiffleInventory = yourGunInventory<AssultRiffle>('ak-47');
+
+const shotgunInvestory = yourGunInventory<ShotGuns>('MP-71');
+```
+
 ## Tools/Extension that can help TypeScript+Vue development
 > https://vuedx.com/ by Rahul Kadyan
 

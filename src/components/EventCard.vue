@@ -14,12 +14,13 @@
 </template>
 
 <script>
+import { EventItem } from '../types'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
   props: {
     event: {
-      type: Object,
+      type: EventItem,
       required: true
     }
   }
