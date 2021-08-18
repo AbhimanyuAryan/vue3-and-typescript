@@ -15,12 +15,12 @@
 
 <script>
 import { EventItem } from '../types'
-import { defineComponent } from 'vue'
+import { defineComponent, PropType } from 'vue'
 
 export default defineComponent({
   props: {
     event: {
-      type: EventItem,
+      type: Object as PropType<EventItem>,
       required: true
     }
   }
